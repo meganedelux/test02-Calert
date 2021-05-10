@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4925A42926491D290054354F /* test02_CalertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925A42826491D290054354F /* test02_CalertApp.swift */; };
+		4925A42B26491D290054354F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925A42A26491D290054354F /* ContentView.swift */; };
+		4925A42D26491D2A0054354F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4925A42C26491D2A0054354F /* Assets.xcassets */; };
+		4925A43026491D2A0054354F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4925A42F26491D2A0054354F /* Preview Assets.xcassets */; };
+		4925A43B26491D2A0054354F /* test02_CalertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925A43A26491D2A0054354F /* test02_CalertTests.swift */; };
+		4925A44626491D2A0054354F /* test02_CalertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925A44526491D2A0054354F /* test02_CalertUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4925A43726491D2A0054354F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4925A41D26491D290054354F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4925A42426491D290054354F;
+			remoteInfo = "test02-Calert";
+		};
+		4925A44226491D2A0054354F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4925A41D26491D290054354F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4925A42426491D290054354F;
+			remoteInfo = "test02-Calert";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4925A42526491D290054354F /* test02-Calert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test02-Calert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4925A42826491D290054354F /* test02_CalertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test02_CalertApp.swift; sourceTree = "<group>"; };
+		4925A42A26491D290054354F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4925A42C26491D2A0054354F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4925A42F26491D2A0054354F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4925A43126491D2A0054354F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4925A43626491D2A0054354F /* test02-CalertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test02-CalertTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4925A43A26491D2A0054354F /* test02_CalertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test02_CalertTests.swift; sourceTree = "<group>"; };
+		4925A43C26491D2A0054354F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4925A44126491D2A0054354F /* test02-CalertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test02-CalertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4925A44526491D2A0054354F /* test02_CalertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test02_CalertUITests.swift; sourceTree = "<group>"; };
+		4925A44726491D2A0054354F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4925A42226491D290054354F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A43326491D2A0054354F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A43E26491D2A0054354F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4925A41C26491D290054354F = {
+			isa = PBXGroup;
+			children = (
+				4925A42726491D290054354F /* test02-Calert */,
+				4925A43926491D2A0054354F /* test02-CalertTests */,
+				4925A44426491D2A0054354F /* test02-CalertUITests */,
+				4925A42626491D290054354F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4925A42626491D290054354F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4925A42526491D290054354F /* test02-Calert.app */,
+				4925A43626491D2A0054354F /* test02-CalertTests.xctest */,
+				4925A44126491D2A0054354F /* test02-CalertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4925A42726491D290054354F /* test02-Calert */ = {
+			isa = PBXGroup;
+			children = (
+				4925A42826491D290054354F /* test02_CalertApp.swift */,
+				4925A42A26491D290054354F /* ContentView.swift */,
+				4925A42C26491D2A0054354F /* Assets.xcassets */,
+				4925A43126491D2A0054354F /* Info.plist */,
+				4925A42E26491D2A0054354F /* Preview Content */,
+			);
+			path = "test02-Calert";
+			sourceTree = "<group>";
+		};
+		4925A42E26491D2A0054354F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4925A42F26491D2A0054354F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4925A43926491D2A0054354F /* test02-CalertTests */ = {
+			isa = PBXGroup;
+			children = (
+				4925A43A26491D2A0054354F /* test02_CalertTests.swift */,
+				4925A43C26491D2A0054354F /* Info.plist */,
+			);
+			path = "test02-CalertTests";
+			sourceTree = "<group>";
+		};
+		4925A44426491D2A0054354F /* test02-CalertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4925A44526491D2A0054354F /* test02_CalertUITests.swift */,
+				4925A44726491D2A0054354F /* Info.plist */,
+			);
+			path = "test02-CalertUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4925A42426491D290054354F /* test02-Calert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4925A44A26491D2A0054354F /* Build configuration list for PBXNativeTarget "test02-Calert" */;
+			buildPhases = (
+				4925A42126491D290054354F /* Sources */,
+				4925A42226491D290054354F /* Frameworks */,
+				4925A42326491D290054354F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test02-Calert";
+			productName = "test02-Calert";
+			productReference = 4925A42526491D290054354F /* test02-Calert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4925A43526491D2A0054354F /* test02-CalertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4925A44D26491D2A0054354F /* Build configuration list for PBXNativeTarget "test02-CalertTests" */;
+			buildPhases = (
+				4925A43226491D2A0054354F /* Sources */,
+				4925A43326491D2A0054354F /* Frameworks */,
+				4925A43426491D2A0054354F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4925A43826491D2A0054354F /* PBXTargetDependency */,
+			);
+			name = "test02-CalertTests";
+			productName = "test02-CalertTests";
+			productReference = 4925A43626491D2A0054354F /* test02-CalertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4925A44026491D2A0054354F /* test02-CalertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4925A45026491D2A0054354F /* Build configuration list for PBXNativeTarget "test02-CalertUITests" */;
+			buildPhases = (
+				4925A43D26491D2A0054354F /* Sources */,
+				4925A43E26491D2A0054354F /* Frameworks */,
+				4925A43F26491D2A0054354F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4925A44326491D2A0054354F /* PBXTargetDependency */,
+			);
+			name = "test02-CalertUITests";
+			productName = "test02-CalertUITests";
+			productReference = 4925A44126491D2A0054354F /* test02-CalertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4925A41D26491D290054354F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4925A42426491D290054354F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					4925A43526491D2A0054354F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4925A42426491D290054354F;
+					};
+					4925A44026491D2A0054354F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4925A42426491D290054354F;
+					};
+				};
+			};
+			buildConfigurationList = 4925A42026491D290054354F /* Build configuration list for PBXProject "test02-Calert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4925A41C26491D290054354F;
+			productRefGroup = 4925A42626491D290054354F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4925A42426491D290054354F /* test02-Calert */,
+				4925A43526491D2A0054354F /* test02-CalertTests */,
+				4925A44026491D2A0054354F /* test02-CalertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4925A42326491D290054354F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4925A43026491D2A0054354F /* Preview Assets.xcassets in Resources */,
+				4925A42D26491D2A0054354F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A43426491D2A0054354F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A43F26491D2A0054354F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4925A42126491D290054354F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4925A42B26491D290054354F /* ContentView.swift in Sources */,
+				4925A42926491D290054354F /* test02_CalertApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A43226491D2A0054354F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4925A43B26491D2A0054354F /* test02_CalertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A43D26491D2A0054354F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4925A44626491D2A0054354F /* test02_CalertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4925A43826491D2A0054354F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4925A42426491D290054354F /* test02-Calert */;
+			targetProxy = 4925A43726491D2A0054354F /* PBXContainerItemProxy */;
+		};
+		4925A44326491D2A0054354F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4925A42426491D290054354F /* test02-Calert */;
+			targetProxy = 4925A44226491D2A0054354F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4925A44826491D2A0054354F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4925A44926491D2A0054354F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4925A44B26491D2A0054354F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"test02-Calert/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F22DG7R9Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "test02-Calert/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.test02-Calert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4925A44C26491D2A0054354F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"test02-Calert/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F22DG7R9Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "test02-Calert/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.test02-Calert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4925A44E26491D2A0054354F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F22DG7R9Q;
+				INFOPLIST_FILE = "test02-CalertTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.test02-CalertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test02-Calert.app/test02-Calert";
+			};
+			name = Debug;
+		};
+		4925A44F26491D2A0054354F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F22DG7R9Q;
+				INFOPLIST_FILE = "test02-CalertTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.test02-CalertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test02-Calert.app/test02-Calert";
+			};
+			name = Release;
+		};
+		4925A45126491D2A0054354F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F22DG7R9Q;
+				INFOPLIST_FILE = "test02-CalertUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.test02-CalertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "test02-Calert";
+			};
+			name = Debug;
+		};
+		4925A45226491D2A0054354F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F22DG7R9Q;
+				INFOPLIST_FILE = "test02-CalertUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.test02-CalertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "test02-Calert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4925A42026491D290054354F /* Build configuration list for PBXProject "test02-Calert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4925A44826491D2A0054354F /* Debug */,
+				4925A44926491D2A0054354F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4925A44A26491D2A0054354F /* Build configuration list for PBXNativeTarget "test02-Calert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4925A44B26491D2A0054354F /* Debug */,
+				4925A44C26491D2A0054354F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4925A44D26491D2A0054354F /* Build configuration list for PBXNativeTarget "test02-CalertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4925A44E26491D2A0054354F /* Debug */,
+				4925A44F26491D2A0054354F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4925A45026491D2A0054354F /* Build configuration list for PBXNativeTarget "test02-CalertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4925A45126491D2A0054354F /* Debug */,
+				4925A45226491D2A0054354F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4925A41D26491D290054354F /* Project object */;
+}
